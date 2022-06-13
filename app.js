@@ -28,8 +28,8 @@ recordBtn.addEventListener('click', () => {
      api.executeCommand('startRecording', {
             mode: 'stream',
             shouldShare: true,
-            rtmpBroadcastID: "<RTMP_URL>" + "<RTMP_STREAM_KEY>", // Get the url and key from vimeo live event
-            youtubeStreamKey: "<RTMP_URL>" + "<RTMP_STREAM_KEY>" // Get the url and key from vimeo live event
+            rtmpBroadcastID: "<RTMP_URL>/" + "<RTMP_STREAM_KEY>", // Get the url and key from vimeo live event
+            youtubeStreamKey: "<RTMP_URL>/" + "<RTMP_STREAM_KEY>" // Get the url and key from vimeo live event
         });
 })
 
